@@ -42,7 +42,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <!-- filterPattern>org/jboss/aa/[a-zA-Z]+</filterPattern -->
+                    <filterPattern>org/jboss/aa/[a-zA-Z]+</filterPattern>
                     <transformerClassName>org.jboss.acme.TestCFT</transformerClassName>
                 </configuration>
             </plugin>
